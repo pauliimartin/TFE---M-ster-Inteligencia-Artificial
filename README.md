@@ -22,7 +22,7 @@ Por motivos de confidencialidad, este repositorio únicamente incluye el código
 - Matplotlib / Seaborn — visualización de resultados
 
 ## Estructura del repositorio
-├── codigo.py    
+├── modelo.py    
 
 └── README.md
 
@@ -42,11 +42,11 @@ Para ejecutar el proyecto será necesario disponer de ficheros propios con la mi
 
 ## Cómo ejecutar el proyecto
 
-1. Colocar los ficheros de datos propios en la misma carpeta que `codigo.py`, siguiendo el formato descrito en la memoria.
+1. Colocar los ficheros de datos propios en la misma carpeta que `modelo.py`, siguiendo el formato descrito en la memoria.
 2. Ejecutar el script:
 
 ```bash
-python codigo.py
+python modelo.py
 ```
 
 El script incluye de forma secuencial la limpieza y tratamiento de anomalías, la ingeniería de variables, el entrenamiento de los modelos baseline, XGBoost, LightGBM y la red LSTM, y la evaluación final con el análisis SHAP.
