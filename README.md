@@ -22,8 +22,8 @@ Por motivos de confidencialidad, este repositorio únicamente incluye el código
 - Matplotlib / Seaborn — visualización de resultados
 
 ## Estructura del repositorio
-├── codigo.py          
-# Pipeline completo: limpieza, features, modelos y evaluación
+├── codigo.py    
+
 └── README.md
 
 ## Datos
